@@ -4,7 +4,7 @@ import matter from "gray-matter";
 
 // ─── CONFIG ──────────────────────────────────────────────────────────────────
 const ENV_TOKEN = import.meta.env.VITE_GITHUB_TOKEN || "";
-const VERA_REPO = import.meta.env.VITE_VERA_REPO || "Catalyst-Austin/vera";
+const VERA_REPO = import.meta.env.VITE_VERA_REPO || "Catalyst-Internal/vera";
 const STATE_REPO = import.meta.env.VITE_STATE_REPO || VERA_REPO;
 const STATE_BRANCH = import.meta.env.VITE_STATE_BRANCH || "main";
 

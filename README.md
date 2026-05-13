@@ -1,7 +1,7 @@
 # Catalyst Ops
 
 Single-pane dashboard for the Vera work-order queue and dossier library. Reads everything
-live from `Catalyst-Austin/vera` over the GitHub Contents API.
+live from `Catalyst-Internal/vera` over the GitHub Contents API.
 
 Two panels:
 
@@ -12,7 +12,7 @@ Two panels:
 
 ```bash
 cp .env.example .env.local
-# Edit .env.local: VITE_GITHUB_TOKEN must be a fine-grained PAT with contents:read on Catalyst-Austin/vera
+# Edit .env.local: VITE_GITHUB_TOKEN must be a fine-grained PAT with contents:read on Catalyst-Internal/vera
 npm install
 npm run dev
 ```
@@ -32,4 +32,4 @@ Vercel free tier. Connect this repo, add the four env vars from `.env.example` i
 
 See [`VERSIONING.md`](VERSIONING.md) for the cross-repo version protocol.
 
-Filed by WO-072. Sibling repos: [Catalyst-Austin/vera](https://github.com/Catalyst-Austin/vera), [Catalyst-Austin/vera-site](https://github.com/Catalyst-Austin/vera-site).
+Filed by WO-072. Sibling repos: [Catalyst-Internal/vera](https://github.com/Catalyst-Internal/vera), [Catalyst-Internal/vera-site](https://github.com/Catalyst-Internal/vera-site).

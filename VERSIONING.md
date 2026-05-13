@@ -19,11 +19,11 @@ schema_version: 1
 
 ### Major
 
-Breaking change to the contract this dashboard depends on: a rename of the WO state files in `Catalyst-Austin/vera/state/`, a dossier-path restructure in `packages/vera/briefcase/**`, an API shape change that requires schema migration, or a UI overhaul that breaks bookmarks.
+Breaking change to the contract this dashboard depends on: a rename of the WO state files in `Catalyst-Internal/vera/state/`, a dossier-path restructure in `packages/vera/briefcase/**`, an API shape change that requires schema migration, or a UI overhaul that breaks bookmarks.
 
 Examples:
-- 1.0.0 — WO state files committed to `Catalyst-Austin/vera/state/` (bootstrap of D1)
-- 2.0.0 — Move state read source out of `Catalyst-Austin/vera` (would force PAT scope change)
+- 1.0.0 — WO state files committed to `Catalyst-Internal/vera/state/` (bootstrap of D1)
+- 2.0.0 — Move state read source out of `Catalyst-Internal/vera` (would force PAT scope change)
 
 ### Minor
 

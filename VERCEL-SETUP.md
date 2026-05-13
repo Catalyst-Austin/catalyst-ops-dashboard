@@ -10,9 +10,9 @@ Catalyst Ops is live at <https://catalyst-ops-dashboard.vercel.app>. The build i
 
    | Name | Value |
    |---|---|
-   | `VITE_GITHUB_TOKEN` | Fine-grained PAT with `contents:read` on `Catalyst-Austin/vera` |
-   | `VITE_VERA_REPO` | `Catalyst-Austin/vera` |
-   | `VITE_STATE_REPO` | `Catalyst-Austin/vera` |
+   | `VITE_GITHUB_TOKEN` | Fine-grained PAT with `contents:read` on `Catalyst-Internal/vera` |
+   | `VITE_VERA_REPO` | `Catalyst-Internal/vera` |
+   | `VITE_STATE_REPO` | `Catalyst-Internal/vera` |
    | `VITE_STATE_BRANCH` | `main` |
 
 4. Click **Save** for each.
@@ -25,14 +25,14 @@ If you don't already have a PAT scoped to vera:
 
 1. Go to <https://github.com/settings/personal-access-tokens>.
 2. **Generate new token (fine-grained)**.
-3. **Repository access** → "Only select repositories" → choose `Catalyst-Austin/vera`.
+3. **Repository access** → "Only select repositories" → choose `Catalyst-Internal/vera`.
 4. **Repository permissions** → `Contents`: Read-only. (Other permissions can stay no access.)
 5. Set expiration (90 days is a reasonable default).
 6. **Generate** and copy the token. Paste into Vercel's `VITE_GITHUB_TOKEN` value.
 
 ## Auto-deploy on push
 
-Vercel auto-deploys on every push to `main` for this project (default GitHub integration). No extra config needed — once the env vars are set, every WO close that updates `state/_*.md` in `Catalyst-Austin/vera` is visible in the dashboard within the next 60-second poll.
+Vercel auto-deploys on every push to `main` for this project (default GitHub integration). No extra config needed — once the env vars are set, every WO close that updates `state/_*.md` in `Catalyst-Internal/vera` is visible in the dashboard within the next 60-second poll.
 
 ## Custom domain (optional)
 
