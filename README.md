@@ -32,4 +32,6 @@ Vercel free tier. Connect this repo, add the four env vars from `.env.example` i
 
 See [`VERSIONING.md`](VERSIONING.md) for the cross-repo version protocol.
 
+**For AI agents:** read [`AGENTS.md`](AGENTS.md) before editing. [GitHub Wiki home](https://github.com/Catalyst-Internal/cat-iq-status/wiki). Changelog: [`CHANGELOG.md`](CHANGELOG.md).
+
 Filed by WO-072. Sibling repos: [Catalyst-Internal/vera](https://github.com/Catalyst-Internal/vera), [Catalyst-Internal/vera-site](https://github.com/Catalyst-Internal/vera-site).

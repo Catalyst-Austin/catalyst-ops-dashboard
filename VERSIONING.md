@@ -51,4 +51,11 @@ Always update `package.json` version + this VERSIONING.md `Current version` line
 
 ---
 
+## Companion artifacts
+
+- [CHANGELOG.md](CHANGELOG.md) — release log
+- [AGENTS.md](AGENTS.md) — agent workflow
+
+---
+
 *Filed by Ren · Code · 2026-05-10 · session 20260510T194804Z · WO-072*
