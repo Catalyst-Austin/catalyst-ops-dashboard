@@ -1,11 +1,11 @@
-# Agent playbook — Catalyst-Internal/cat-iq-status
+# Agent playbook — Catalyst-Internal/vera-status
 
-Paste into https://github.com/Catalyst-Internal/cat-iq-status/wiki/Agent-playbook
+Paste into https://github.com/Catalyst-Internal/vera-status/wiki/Agent-playbook
 
 ## Before you edit
 
-1. https://github.com/Catalyst-Internal/cat-iq-status/blob/main/AGENTS.md
-2. https://github.com/Catalyst-Internal/cat-iq-status/blob/main/VERSIONING.md when changing releases or contracts
+1. https://github.com/Catalyst-Internal/vera-status/blob/main/AGENTS.md
+2. https://github.com/Catalyst-Internal/vera-status/blob/main/VERSIONING.md when changing releases or contracts
 
 ## Label taxonomy
 

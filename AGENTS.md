@@ -1,6 +1,6 @@
-# AGENTS.md — Catalyst Ops dashboard
+# AGENTS.md — Vera Status dashboard
 
-Instructions for AI agents and anyone committing to **Catalyst-Internal/cat-iq-status** (GitHub repo for this tree). Semver meaning and approver gates live in [`VERSIONING.md`](VERSIONING.md); this file is **workflow only**.
+Instructions for AI agents and anyone committing to **Catalyst-Internal/vera-status** (GitHub repo for this tree). Semver meaning and approver gates live in [`VERSIONING.md`](VERSIONING.md); this file is **workflow only**.
 
 ---
 
@@ -39,7 +39,7 @@ Instructions for AI agents and anyone committing to **Catalyst-Internal/cat-iq-s
 ## Tags and labels
 
 - **Git tags** `vX.Y.Z`: only when a release is intentional and [`VERSIONING.md`](VERSIONING.md) gates are satisfied. Agents do **not** create tags unless the task explicitly says so.
-- **GitHub labels:** `semver:patch`, `semver:minor`, `semver:major` when possible. [Agent playbook](https://github.com/Catalyst-Internal/cat-iq-status/wiki/Agent-playbook).
+- **GitHub labels:** `semver:patch`, `semver:minor`, `semver:major` when possible. [Agent playbook](https://github.com/Catalyst-Internal/vera-status/wiki/Agent-playbook).
 
 ---
 
@@ -69,9 +69,9 @@ npm run build
 
 | Page | URL |
 |------|-----|
-| Wiki home | https://github.com/Catalyst-Internal/cat-iq-status/wiki |
-| Agent playbook | https://github.com/Catalyst-Internal/cat-iq-status/wiki/Agent-playbook |
-| Releases and tags | https://github.com/Catalyst-Internal/cat-iq-status/wiki/Releases-and-tags |
-| CI and build | https://github.com/Catalyst-Internal/cat-iq-status/wiki/CI-and-build |
+| Wiki home | https://github.com/Catalyst-Internal/vera-status/wiki |
+| Agent playbook | https://github.com/Catalyst-Internal/vera-status/wiki/Agent-playbook |
+| Releases and tags | https://github.com/Catalyst-Internal/vera-status/wiki/Releases-and-tags |
+| CI and build | https://github.com/Catalyst-Internal/vera-status/wiki/CI-and-build |
 
-Raw `VERSIONING.md` on `main`: https://github.com/Catalyst-Internal/cat-iq-status/blob/main/VERSIONING.md
+Raw `VERSIONING.md` on `main`: https://github.com/Catalyst-Internal/vera-status/blob/main/VERSIONING.md

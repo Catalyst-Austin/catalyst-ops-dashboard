@@ -477,7 +477,7 @@ function App() {
   if (!FULLY_CONFIGURED) {
     return (
       <div style={{ ...styles.shell, padding: 40 }}>
-        <h1 style={{ margin: 0 }}>Catalyst Ops</h1>
+        <h1 style={{ margin: 0 }}>Vera Status</h1>
         <div style={{ ...styles.errorBox, marginTop: 20 }}>
           <strong>Missing configuration.</strong>
           <div style={{ marginTop: 6 }}>
@@ -496,7 +496,7 @@ function App() {
     <div style={styles.shell}>
       <header style={styles.appHeader}>
         <div>
-          <h1 style={styles.appTitle}>Catalyst Ops</h1>
+          <h1 style={styles.appTitle}>Vera Status</h1>
           <div style={styles.appSubtitle}>
             Live WO queue + dossier reader · reading <code>{VERA_REPO}</code>
           </div>

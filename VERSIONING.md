@@ -7,7 +7,7 @@ schema_version: 1
 
 ## Repo
 
-**Repo:** catalyst-ops-dashboard (GitHub: `Catalyst-Internal/cat-iq-status`)
+**Repo:** vera-status (GitHub: `Catalyst-Internal/vera-status`)
 **Current version:** 0.1.0
 **Schema version:** 1
 
