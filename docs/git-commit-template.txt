@@ -4,7 +4,7 @@
 # Body: wrap at ~72 chars. Explain what and why, not how (code shows how).
 #
 # - Bullet for each distinct change
-# - Link issues: Fixes Catalyst-Internal/cat-iq-status#N
+# - Link issues: Fixes Catalyst-Internal/vera-status#N
 #
 # BREAKING CHANGE: <one line describing the break and what callers must do>
 #

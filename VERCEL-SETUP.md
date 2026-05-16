@@ -1,10 +1,10 @@
 # Vercel setup
 
-Catalyst Ops is live at <https://catalyst-ops-dashboard.vercel.app>. The build is up and serving, but without environment variables the app shows a "Missing configuration" screen on first load. This page walks you through finishing the wiring.
+Vera Status is live at <https://vera-status.vercel.app>. The build is up and serving, but without environment variables the app shows a "Missing configuration" screen on first load. This page walks you through finishing the wiring.
 
 ## One-time setup (after first deploy)
 
-1. Open the Vercel project at <https://vercel.com/mjackson-7673s-projects/catalyst-ops-dashboard>.
+1. Open the Vercel project at <https://vercel.com/mjackson-7673s-projects/vera-status>.
 2. Go to **Settings → Environment Variables**.
 3. Add the following four variables, all scoped to **Production**, **Preview**, and **Development**:
 
@@ -17,7 +17,7 @@ Catalyst Ops is live at <https://catalyst-ops-dashboard.vercel.app>. The build i
 
 4. Click **Save** for each.
 5. Trigger a redeploy: **Deployments → … → Redeploy** on the latest production deployment, or push any commit to `main`.
-6. Reload <https://catalyst-ops-dashboard.vercel.app> — both panels should render with live data.
+6. Reload <https://vera-status.vercel.app> — both panels should render with live data.
 
 ## Fine-grained PAT
 
@@ -36,7 +36,7 @@ Vercel auto-deploys on every push to `main` for this project (default GitHub int
 
 ## After the GitHub org move (Catalyst-Internal)
 
-1. **Git connection:** In Vercel → Settings → Git, confirm the project is linked to `Catalyst-Internal/cat-iq-status` (GitHub slug for this dashboard). Re-authorize the Vercel GitHub App for the **Catalyst-Internal** org if imports stopped working.
+1. **Git connection:** In Vercel → Settings → Git, confirm the project is linked to `Catalyst-Internal/vera-status` (GitHub slug for this dashboard). Re-authorize the Vercel GitHub App for the **Catalyst-Internal** org if imports stopped working.
 2. **PAT scope:** Regenerate or edit the fine-grained PAT so **Repository access** includes `Catalyst-Internal/vera` (and any other private repos the dashboard reads).
 3. **Env values:** Ensure `VITE_VERA_REPO` and `VITE_STATE_REPO` still match the live slug (`Catalyst-Internal/vera` unless you split state elsewhere).
 
